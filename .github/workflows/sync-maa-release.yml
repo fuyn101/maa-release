@@ -1,0 +1,170 @@
+name: Sync MAA release and resources
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-maa-release-and-resources
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Find newest Windows x64 release asset
+        id: release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import urllib.request
+          request = urllib.request.Request(
+              'https://api.github.com/repos/MaaAssistantArknights/MaaAssistantArknights/releases?per_page=100',
+              headers={'Accept': 'application/vnd.github+json', 'Authorization': f"Bearer {os.environ['GITHUB_TOKEN']}", 'X-GitHub-Api-Version': '2022-11-28'},
+          )
+          with urllib.request.urlopen(request) as response:
+              releases = json.load(response)
+          pattern = re.compile(r'^MAA-.*-win-x64\.zip$')
+          for release in releases:
+              if release['draft']:
+                  continue
+              for asset in release['assets']:
+                  if pattern.fullmatch(asset['name']):
+                      with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+                          output.write(f"name={asset['name']}\n")
+                          output.write(f"url={asset['browser_download_url']}\n")
+                      raise SystemExit
+          raise SystemExit('No MAA Windows x64 ZIP asset was found.')
+          PY
+
+      - name: Check sources and rebuild complete snapshot
+        id: sync
+        env:
+          ASSET_NAME: ${{ steps.release.outputs.name }}
+          ASSET_URL: ${{ steps.release.outputs.url }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          temp_dir="$(mktemp -d)"
+          trap 'rm -rf "$temp_dir"' EXIT
+          curl --fail --location --retry 3 --output "$temp_dir/$ASSET_NAME" "$ASSET_URL"
+          sha256="$(sha256sum "$temp_dir/$ASSET_NAME" | awk '{print $1}')"
+          resource_commit="$(git ls-remote https://github.com/MaaAssistantArknights/MaaResource.git refs/heads/main | awk '{print $1}')"
+          current_release="$(cat .maa-release.sha256 2>/dev/null || true)"
+          current_resource="$(cat .maa-resource.commit 2>/dev/null || true)"
+          snapshot_format="$(cat .maa-snapshot-format 2>/dev/null || true)"
+          if [ "$sha256" = "$current_release" ] && [ "$resource_commit" = "$current_resource" ] && [ "$snapshot_format" = 3 ]; then
+            echo 'Neither the MAA package nor MaaResource has changed.'
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          ARCHIVE_PATH="$temp_dir/$ASSET_NAME" EXTRACT_DIR="$temp_dir/extracted" python3 - <<'PY'
+          import os, shutil
+          from pathlib import Path
+          from zipfile import ZipFile
+          archive = Path(os.environ['ARCHIVE_PATH'])
+          destination = Path(os.environ['EXTRACT_DIR']).resolve()
+          with ZipFile(archive) as package:
+              for entry in package.infolist():
+                  name = entry.filename
+                  if not entry.flag_bits & 0x800:
+                      try:
+                          name = name.encode('cp437').decode('utf-8')
+                      except UnicodeError:
+                          pass
+                  target = (destination / name).resolve()
+                  if target != destination and destination not in target.parents:
+                      raise ValueError(f'Unsafe archive entry: {entry.filename!r}')
+                  if entry.is_dir():
+                      target.mkdir(parents=True, exist_ok=True)
+                      continue
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  with package.open(entry) as source, target.open('wb') as output:
+                      shutil.copyfileobj(source, output)
+          PY
+
+          shopt -s dotglob nullglob
+          entries=("$temp_dir/extracted"/*)
+          if [ "${#entries[@]}" -eq 1 ] && [ -d "${entries[0]}" ]; then
+            source_dir="${entries[0]}"
+          else
+            source_dir="$temp_dir/extracted"
+          fi
+
+          git clone --depth 1 https://github.com/MaaAssistantArknights/MaaResource.git "$temp_dir/MaaResource"
+          resource_commit="$(git -C "$temp_dir/MaaResource" rev-parse HEAD)"
+          git -C "$temp_dir/MaaResource" log -1 --format=%B > "$RUNNER_TEMP/upstream-resource-message.txt"
+          rsync --archive "$temp_dir/MaaResource/resource/" "$source_dir/resource/"
+
+          # One-time migration removes the old root-level application snapshot.
+          if [ "$snapshot_format" != 3 ]; then
+            find . -mindepth 1 -maxdepth 1 \
+              ! -name .git \
+              ! -name .github \
+              ! -name README.md \
+              ! -name .gitignore \
+              ! -name .maa-release.sha256 \
+              ! -name .maa-resource.commit \
+              ! -name .maa-snapshot-format \
+              -exec rm -rf {} +
+          fi
+          rm -rf MAA
+          mkdir -p MAA
+          rsync --archive "$source_dir/" MAA/
+          printf '%s\n' "$sha256" > .maa-release.sha256
+          printf '%s\n' "$resource_commit" > .maa-resource.commit
+          printf '%s\n' 3 > .maa-snapshot-format
+
+          message_file="$RUNNER_TEMP/snapshot-commit-message.txt"
+          if [ "$sha256" != "$current_release" ]; then
+            printf '%s\n' "$sha256" > "$message_file"
+            if [ "$resource_commit" != "$current_resource" ]; then
+              printf '\n' >> "$message_file"
+              cat "$RUNNER_TEMP/upstream-resource-message.txt" >> "$message_file"
+            fi
+          else
+            cp "$RUNNER_TEMP/upstream-resource-message.txt" "$message_file"
+          fi
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+
+      - name: Commit complete snapshot
+        if: steps.sync.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all
+          git add --force MAA
+          git commit -F "$RUNNER_TEMP/snapshot-commit-message.txt"
+          git pull --rebase
+          git push || { git pull --rebase && git push; }
+
+      - name: Publish the latest snapshot to GitHub Releases
+        if: steps.sync.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive="$RUNNER_TEMP/MAA-latest-win-x64.zip"
+          zip -qr "$archive" MAA
+          if gh release view maa-latest > /dev/null 2>&1; then
+            gh release upload maa-latest "$archive" --clobber
+          else
+            gh release create maa-latest "$archive" --title 'MAA latest snapshot' --generate-notes
+          fi
