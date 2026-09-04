@@ -2546,6 +2546,15 @@ resource/Arknights-Tile-Pos/act53side_s04#f#-activities-act53side-level_act53sid
 resource/Arknights-Tile-Pos/act53side_sp01-activities-act53side-level_act53side_sp01.json
 resource/Arknights-Tile-Pos/act53side_sp02-activities-act53side-level_act53side_sp02.json
 resource/Arknights-Tile-Pos/act53side_tr01-activities-act53side-level_act53side_tr01.json
+resource/Arknights-Tile-Pos/act54side_01-activities-act54side-level_act54side_01.json
+resource/Arknights-Tile-Pos/act54side_02-activities-act54side-level_act54side_02.json
+resource/Arknights-Tile-Pos/act54side_03-activities-act54side-level_act54side_03.json
+resource/Arknights-Tile-Pos/act54side_04-activities-act54side-level_act54side_04.json
+resource/Arknights-Tile-Pos/act54side_05-activities-act54side-level_act54side_05.json
+resource/Arknights-Tile-Pos/act54side_06-activities-act54side-level_act54side_06.json
+resource/Arknights-Tile-Pos/act54side_07-activities-act54side-level_act54side_07.json
+resource/Arknights-Tile-Pos/act54side_08-activities-act54side-level_act54side_08.json
+resource/Arknights-Tile-Pos/act54side_tr01-activities-act54side-level_act54side_tr01.json
 resource/Arknights-Tile-Pos/act5bossrush_01-activities-act5bossrush-level_bossrush5_01.json
 resource/Arknights-Tile-Pos/act5bossrush_02-activities-act5bossrush-level_bossrush5_02.json
 resource/Arknights-Tile-Pos/act5bossrush_03-activities-act5bossrush-level_bossrush5_03.json
@@ -3553,6 +3562,7 @@ resource/Arknights-Tile-Pos/mem_glaze_1-obt-memory-level_memory_glaze_1.json
 resource/Arknights-Tile-Pos/mem_glider_1-obt-memory-level_memory_glider_1.json
 resource/Arknights-Tile-Pos/mem_gnosis_1-obt-memory-level_memory_gnosis_1.json
 resource/Arknights-Tile-Pos/mem_grabds_1-obt-memory-level_memory_grabds_1.json
+resource/Arknights-Tile-Pos/mem_graceb_1-obt-memory-level_memory_graceb_1.json
 resource/Arknights-Tile-Pos/mem_grani_1-obt-memory-level_memory_grani_1.json
 resource/Arknights-Tile-Pos/mem_gravel_1-obt-memory-level_memory_gravel_1.json
 resource/Arknights-Tile-Pos/mem_greyy_1-obt-memory-level_memory_greyy_1.json
@@ -7342,6 +7352,7 @@ resource/tasks/Stages/PV.json
 resource/tasks/Stages/RS.json
 resource/tasks/Stages/SL.json
 resource/tasks/Stages/SN.json
+resource/tasks/Stages/SR.json
 resource/tasks/Stages/Supplies.json
 resource/tasks/Stages/TA.json
 resource/tasks/Stages/TD.json
@@ -7633,6 +7644,7 @@ resource/template/infrast/Bskill_ctrl_mp_oblvns.png
 resource/template/infrast/Bskill_ctrl_orchd2.png
 resource/template/infrast/Bskill_ctrl_p_bot.png
 resource/template/infrast/Bskill_ctrl_p_oblvns.png
+resource/template/infrast/Bskill_ctrl_p_spd_p3r.png
 resource/template/infrast/Bskill_ctrl_p_spd.png
 resource/template/infrast/Bskill_ctrl_psk.png
 resource/template/infrast/Bskill_ctrl_r6.png
@@ -7678,6 +7690,7 @@ resource/template/infrast/Bskill_dorm_one2.png
 resource/template/infrast/Bskill_dorm_one3.png
 resource/template/infrast/Bskill_dorm_one4.png
 resource/template/infrast/Bskill_dorm_one5.png
+resource/template/infrast/Bskill_dorm_p3r.png
 resource/template/infrast/Bskill_dorm_powtorecall1.png
 resource/template/infrast/Bskill_dorm_powtorecall2.png
 resource/template/infrast/Bskill_dorm_reborn.png
@@ -7710,6 +7723,7 @@ resource/template/infrast/Bskill_formula_spd_sunbr.png
 resource/template/infrast/Bskill_hire_bd_B.png
 resource/template/infrast/Bskill_hire_blitz.png
 resource/template/infrast/Bskill_hire_kalts2.png
+resource/template/infrast/Bskill_hire_p3r.png
 resource/template/infrast/Bskill_hire_skgoat.png
 resource/template/infrast/Bskill_hire_skgoat2.png
 resource/template/infrast/Bskill_hire_skgoat3.png
@@ -7772,6 +7786,7 @@ resource/template/infrast/Bskill_man_marcille1.png
 resource/template/infrast/Bskill_man_marcille2.png
 resource/template/infrast/Bskill_man_originium1.png
 resource/template/infrast/Bskill_man_originium2.png
+resource/template/infrast/Bskill_man_p3r.png
 resource/template/infrast/Bskill_man_skill_change.png
 resource/template/infrast/Bskill_man_skill_spd.png
 resource/template/infrast/Bskill_man_skill_spd2.png
@@ -7838,6 +7853,8 @@ resource/template/infrast/Bskill_meet_glasgow1.png
 resource/template/infrast/Bskill_meet_glasgow2.png
 resource/template/infrast/Bskill_meet_iana.png
 resource/template/infrast/Bskill_meet_kjerag2.png
+resource/template/infrast/Bskill_meet_koromaru.png
+resource/template/infrast/Bskill_meet_p3r_bd.png
 resource/template/infrast/Bskill_meet_penguin1.png
 resource/template/infrast/Bskill_meet_penguin2.png
 resource/template/infrast/Bskill_meet_rhine2.png
@@ -7876,6 +7893,7 @@ resource/template/infrast/Bskill_pow_drone.png
 resource/template/infrast/Bskill_pow_jnight.png
 resource/template/infrast/Bskill_pow_spd_P.png
 resource/template/infrast/Bskill_pow_spd_P1.png
+resource/template/infrast/Bskill_pow_spd_p3r.png
 resource/template/infrast/Bskill_pow_spd&cost.png
 resource/template/infrast/Bskill_pow_spd1.png
 resource/template/infrast/Bskill_pow_spd2.png
@@ -7995,6 +8013,7 @@ resource/template/infrast/Bskill_train_medic3.png
 resource/template/infrast/Bskill_train_mh2_guard&sniper1.png
 resource/template/infrast/Bskill_train_mh2_guard&sniper2.png
 resource/template/infrast/Bskill_train_necras.png
+resource/template/infrast/Bskill_train_p3r.png
 resource/template/infrast/Bskill_train_reducetime.png
 resource/template/infrast/Bskill_train_sami.png
 resource/template/infrast/Bskill_train_siegesniper.png
@@ -8498,6 +8517,7 @@ resource/template/items/act4d5_point_kfc.png
 resource/template/items/act4mainss_token.png
 resource/template/items/act51side_token_poem.png
 resource/template/items/act53side_token_photo.png
+resource/template/items/act54side_token_tape.png
 resource/template/items/act5bossrush_milestone_point.png
 resource/template/items/act5bossrush_token_relic.png
 resource/template/items/act5collection_point_token.png
@@ -8592,6 +8612,8 @@ resource/template/items/LINKAGE_TKT_GACHA_10_4801.png
 resource/template/items/LINKAGE_TKT_GACHA_10_5401.png
 resource/template/items/LINKAGE_TKT_GACHA_10_6501.png
 resource/template/items/LINKAGE_TKT_GACHA_10_7401.png
+resource/template/items/LINKAGE_TKT_GACHA_10_7701.png
+resource/template/items/LINKAGE_TKT_GACHA_7701.png
 resource/template/items/LMTGS_COIN_1401.png
 resource/template/items/LMTGS_COIN_1601.png
 resource/template/items/LMTGS_COIN_1803.png
@@ -8700,6 +8722,14 @@ resource/template/items/SINGLE_75_0_1_GACHA.png
 resource/template/items/so_char_exp_1.png
 resource/template/items/SOCIAL_PT.png
 resource/template/items/STORY_REVIEW_COIN.png
+resource/template/items/tarot_1.png
+resource/template/items/tarot_2.png
+resource/template/items/tarot_3.png
+resource/template/items/tarot_4.png
+resource/template/items/tarot_5.png
+resource/template/items/tarot_6.png
+resource/template/items/tarot_7.png
+resource/template/items/tarot_8.png
 resource/template/items/token_Obsidian.png
 resource/template/items/token_ObsidianCoin.png
 resource/template/items/token_Wristband.png
