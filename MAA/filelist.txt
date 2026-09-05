@@ -4837,6 +4837,7 @@ resource/global/txwy/resource/PaddleOCR/rec/keys.txt
 resource/global/txwy/resource/PaddleOCR/rec/version.txt
 resource/global/txwy/resource/recruitment.json
 resource/global/txwy/resource/tasks/MiniGame/ALL.json
+resource/global/txwy/resource/tasks/MiniGame/MaterialSynthesis.json
 resource/global/txwy/resource/tasks/MiniGame/OS.json
 resource/global/txwy/resource/tasks/MiniGame/SecretFront.json
 resource/global/txwy/resource/tasks/RA/base.json
@@ -4990,6 +4991,12 @@ resource/global/txwy/resource/template/InfrastPic/InfrastClearButton.png
 resource/global/txwy/resource/template/InfrastPic/InfrastOperConflictConfirm.png
 resource/global/txwy/resource/template/InfrastPic/MessageBoard/InfrastReceptionMessageBoard-CouldReceive.png
 resource/global/txwy/resource/template/InfrastPic/Mfg/ReplenishToMax.png
+resource/global/txwy/resource/template/InfrastPic/Processing/ProcessingAvailable.png
+resource/global/txwy/resource/template/InfrastPic/Processing/ProcessingFlag.png
+resource/global/txwy/resource/template/InfrastPic/Processing/ProcessingNoOperator.png
+resource/global/txwy/resource/template/InfrastPic/Processing/ProcessingSatisfied.png
+resource/global/txwy/resource/template/InfrastPic/Processing/ProcessingStart.png
+resource/global/txwy/resource/template/InfrastPic/Processing/ProcessingUnavailable.png
 resource/global/txwy/resource/template/InfrastPic/Product/ChooseMoneyOrder.png
 resource/global/txwy/resource/template/InfrastPic/Product/ChooseSyntheticJadeOrder.png
 resource/global/txwy/resource/template/InfrastPic/Product/InfrastMfgChipFlag.png
@@ -5364,6 +5371,7 @@ resource/global/YoStarEN/resource/PaddleOCR/rec/keys.txt
 resource/global/YoStarEN/resource/PaddleOCR/rec/version.txt
 resource/global/YoStarEN/resource/recruitment.json
 resource/global/YoStarEN/resource/tasks/MiniGame/ALL.json
+resource/global/YoStarEN/resource/tasks/MiniGame/MaterialSynthesis.json
 resource/global/YoStarEN/resource/tasks/MiniGame/OS.json
 resource/global/YoStarEN/resource/tasks/MiniGame/SecretFront.json
 resource/global/YoStarEN/resource/tasks/RA/base.json
@@ -5515,6 +5523,12 @@ resource/global/YoStarEN/resource/template/InfrastPic/InfrastClearButton.png
 resource/global/YoStarEN/resource/template/InfrastPic/InfrastOperConflictConfirm.png
 resource/global/YoStarEN/resource/template/InfrastPic/Mfg/ReplenishToMax.png
 resource/global/YoStarEN/resource/template/InfrastPic/OnShift.png
+resource/global/YoStarEN/resource/template/InfrastPic/Processing/ProcessingAvailable.png
+resource/global/YoStarEN/resource/template/InfrastPic/Processing/ProcessingFlag.png
+resource/global/YoStarEN/resource/template/InfrastPic/Processing/ProcessingNoOperator.png
+resource/global/YoStarEN/resource/template/InfrastPic/Processing/ProcessingSatisfied.png
+resource/global/YoStarEN/resource/template/InfrastPic/Processing/ProcessingStart.png
+resource/global/YoStarEN/resource/template/InfrastPic/Processing/ProcessingUnavailable.png
 resource/global/YoStarEN/resource/template/InfrastPic/Product/ChooseMoneyOrder.png
 resource/global/YoStarEN/resource/template/InfrastPic/Product/ChooseSyntheticJadeOrder.png
 resource/global/YoStarEN/resource/template/InfrastPic/Product/ClickProductMax.png
@@ -5932,6 +5946,7 @@ resource/global/YoStarJP/resource/PaddleOCR/rec/keys.txt
 resource/global/YoStarJP/resource/PaddleOCR/rec/version.txt
 resource/global/YoStarJP/resource/recruitment.json
 resource/global/YoStarJP/resource/tasks/MiniGame/ALL.json
+resource/global/YoStarJP/resource/tasks/MiniGame/MaterialSynthesis.json
 resource/global/YoStarJP/resource/tasks/MiniGame/OS.json
 resource/global/YoStarJP/resource/tasks/MiniGame/SecretFront.json
 resource/global/YoStarJP/resource/tasks/MiniGame/SPA.json
@@ -6082,6 +6097,12 @@ resource/global/YoStarJP/resource/template/InfrastPic/InfrastOperConflictConfirm
 resource/global/YoStarJP/resource/template/InfrastPic/MessageBoard/InfrastReceptionMessageBoard-CouldReceive.png
 resource/global/YoStarJP/resource/template/InfrastPic/Mfg/ReplenishToMax.png
 resource/global/YoStarJP/resource/template/InfrastPic/OnShift.png
+resource/global/YoStarJP/resource/template/InfrastPic/Processing/ProcessingAvailable.png
+resource/global/YoStarJP/resource/template/InfrastPic/Processing/ProcessingFlag.png
+resource/global/YoStarJP/resource/template/InfrastPic/Processing/ProcessingNoOperator.png
+resource/global/YoStarJP/resource/template/InfrastPic/Processing/ProcessingSatisfied.png
+resource/global/YoStarJP/resource/template/InfrastPic/Processing/ProcessingStart.png
+resource/global/YoStarJP/resource/template/InfrastPic/Processing/ProcessingUnavailable.png
 resource/global/YoStarJP/resource/template/InfrastPic/Product/ChooseMoneyOrder.png
 resource/global/YoStarJP/resource/template/InfrastPic/Product/ChooseSyntheticJadeOrder.png
 resource/global/YoStarJP/resource/template/InfrastPic/Product/ClickProductMax.png
@@ -6476,6 +6497,7 @@ resource/global/YoStarKR/resource/PaddleOCR/rec/keys.txt
 resource/global/YoStarKR/resource/PaddleOCR/rec/version.txt
 resource/global/YoStarKR/resource/recruitment.json
 resource/global/YoStarKR/resource/tasks/MiniGame/ALL.json
+resource/global/YoStarKR/resource/tasks/MiniGame/MaterialSynthesis.json
 resource/global/YoStarKR/resource/tasks/MiniGame/OS.json
 resource/global/YoStarKR/resource/tasks/MiniGame/SecretFront.json
 resource/global/YoStarKR/resource/tasks/RA/base.json
@@ -6619,6 +6641,12 @@ resource/global/YoStarKR/resource/template/InfrastPic/InfrastClearButton.png
 resource/global/YoStarKR/resource/template/InfrastPic/InfrastOperConflictConfirm.png
 resource/global/YoStarKR/resource/template/InfrastPic/MessageBoard/InfrastReceptionMessageBoard-CouldReceive.png
 resource/global/YoStarKR/resource/template/InfrastPic/Mfg/ReplenishToMax.png
+resource/global/YoStarKR/resource/template/InfrastPic/Processing/ProcessingAvailable.png
+resource/global/YoStarKR/resource/template/InfrastPic/Processing/ProcessingFlag.png
+resource/global/YoStarKR/resource/template/InfrastPic/Processing/ProcessingNoOperator.png
+resource/global/YoStarKR/resource/template/InfrastPic/Processing/ProcessingSatisfied.png
+resource/global/YoStarKR/resource/template/InfrastPic/Processing/ProcessingStart.png
+resource/global/YoStarKR/resource/template/InfrastPic/Processing/ProcessingUnavailable.png
 resource/global/YoStarKR/resource/template/InfrastPic/Product/ChooseMoneyOrder.png
 resource/global/YoStarKR/resource/template/InfrastPic/Product/ChooseSyntheticJadeOrder.png
 resource/global/YoStarKR/resource/template/InfrastPic/Product/ClickProductMax.png
@@ -7294,6 +7322,7 @@ resource/tasks/Copilot/formation.json
 resource/tasks/MiniGame/ALL.json
 resource/tasks/MiniGame/AT.json
 resource/tasks/MiniGame/InteractiveExhibition.json
+resource/tasks/MiniGame/MaterialSynthesis.json
 resource/tasks/MiniGame/OS.json
 resource/tasks/MiniGame/PF.json
 resource/tasks/MiniGame/PixelPaint.json
@@ -8220,6 +8249,15 @@ resource/template/InfrastPic/Notification/InfrastOperatorTrim.png
 resource/template/InfrastPic/Notification/InfrastOverviewEnter.png
 resource/template/InfrastPic/Notification/InfrastQueueRotation.png
 resource/template/InfrastPic/OnShift.png
+resource/template/InfrastPic/Processing/ProcessingAvailable.png
+resource/template/InfrastPic/Processing/ProcessingDecrease.png
+resource/template/InfrastPic/Processing/ProcessingFlag.png
+resource/template/InfrastPic/Processing/ProcessingIncrease.png
+resource/template/InfrastPic/Processing/ProcessingNoOperator.png
+resource/template/InfrastPic/Processing/ProcessingReturnParent.png
+resource/template/InfrastPic/Processing/ProcessingSatisfied.png
+resource/template/InfrastPic/Processing/ProcessingStart.png
+resource/template/InfrastPic/Processing/ProcessingUnavailable.png
 resource/template/InfrastPic/Product/ChooseBattleRecord.png
 resource/template/InfrastPic/Product/ChooseMoneyOrder.png
 resource/template/InfrastPic/Product/ChooseOriginiumShard.png
