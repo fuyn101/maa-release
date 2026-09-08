@@ -4892,6 +4892,7 @@ resource/global/txwy/resource/tasks/Stages/UR.json
 resource/global/txwy/resource/tasks/Stages/WB.json
 resource/global/txwy/resource/tasks/Stages/ZT.json
 resource/global/txwy/resource/tasks/tasks.json
+resource/global/txwy/resource/tasks/UiTheme/SwitchThemeByName.json
 resource/global/txwy/resource/template/AccountManagerTxwy.png
 resource/global/txwy/resource/template/Award/AwardFinished.png
 resource/global/txwy/resource/template/Award/DailyTask.png
@@ -5423,6 +5424,7 @@ resource/global/YoStarEN/resource/tasks/Stages/UR.json
 resource/global/YoStarEN/resource/tasks/Stages/WB.json
 resource/global/YoStarEN/resource/tasks/Stages/ZT.json
 resource/global/YoStarEN/resource/tasks/tasks.json
+resource/global/YoStarEN/resource/tasks/UiTheme/SwitchThemeByName.json
 resource/global/YoStarEN/resource/template/Award/AwardFinished.png
 resource/global/YoStarEN/resource/template/Award/DailyTask.png
 resource/global/YoStarEN/resource/template/Award/Mail/ReceiveMail.png
@@ -5997,6 +5999,7 @@ resource/global/YoStarJP/resource/tasks/Stages/UR.json
 resource/global/YoStarJP/resource/tasks/Stages/WB.json
 resource/global/YoStarJP/resource/tasks/Stages/ZT.json
 resource/global/YoStarJP/resource/tasks/tasks.json
+resource/global/YoStarJP/resource/tasks/UiTheme/SwitchThemeByName.json
 resource/global/YoStarJP/resource/template/Award/AwardFinished.png
 resource/global/YoStarJP/resource/template/Award/DailyTask.png
 resource/global/YoStarJP/resource/template/Award/Mail/ReceiveMail.png
@@ -6542,6 +6545,7 @@ resource/global/YoStarKR/resource/tasks/Stages/UR.json
 resource/global/YoStarKR/resource/tasks/Stages/WB.json
 resource/global/YoStarKR/resource/tasks/Stages/ZT.json
 resource/global/YoStarKR/resource/tasks/tasks.json
+resource/global/YoStarKR/resource/tasks/UiTheme/SwitchThemeByName.json
 resource/global/YoStarKR/resource/template/Award/AwardFinished.png
 resource/global/YoStarKR/resource/template/Award/DailyTask.png
 resource/global/YoStarKR/resource/template/Award/Mail/ReceiveMail.png
@@ -7399,6 +7403,7 @@ resource/tasks/UiTheme/OperBox.json
 resource/tasks/UiTheme/QuickSwitch.json
 resource/tasks/UiTheme/Recruit.json
 resource/tasks/UiTheme/SwitchTheme.json
+resource/tasks/UiTheme/SwitchThemeByName.json
 resource/tasks/UiTheme/Task.json
 resource/tasks/UiTheme/Terminal.json
 resource/template/Award/AwardFinished.png
