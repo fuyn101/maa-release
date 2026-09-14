@@ -2554,6 +2554,22 @@ resource/Arknights-Tile-Pos/act54side_05-activities-act54side-level_act54side_05
 resource/Arknights-Tile-Pos/act54side_06-activities-act54side-level_act54side_06.json
 resource/Arknights-Tile-Pos/act54side_07-activities-act54side-level_act54side_07.json
 resource/Arknights-Tile-Pos/act54side_08-activities-act54side-level_act54side_08.json
+resource/Arknights-Tile-Pos/act54side_ex01-activities-act54side-level_act54side_ex01.json
+resource/Arknights-Tile-Pos/act54side_ex01#f#-activities-act54side-level_act54side_ex01.json
+resource/Arknights-Tile-Pos/act54side_ex02-activities-act54side-level_act54side_ex02.json
+resource/Arknights-Tile-Pos/act54side_ex02#f#-activities-act54side-level_act54side_ex02.json
+resource/Arknights-Tile-Pos/act54side_ex03-activities-act54side-level_act54side_ex03.json
+resource/Arknights-Tile-Pos/act54side_ex03#f#-activities-act54side-level_act54side_ex03.json
+resource/Arknights-Tile-Pos/act54side_ex04-activities-act54side-level_act54side_ex04.json
+resource/Arknights-Tile-Pos/act54side_ex04#f#-activities-act54side-level_act54side_ex04.json
+resource/Arknights-Tile-Pos/act54side_ex05-activities-act54side-level_act54side_ex05.json
+resource/Arknights-Tile-Pos/act54side_ex05#f#-activities-act54side-level_act54side_ex05.json
+resource/Arknights-Tile-Pos/act54side_ex06-activities-act54side-level_act54side_ex06.json
+resource/Arknights-Tile-Pos/act54side_ex06#f#-activities-act54side-level_act54side_ex06.json
+resource/Arknights-Tile-Pos/act54side_ex07-activities-act54side-level_act54side_ex07.json
+resource/Arknights-Tile-Pos/act54side_ex07#f#-activities-act54side-level_act54side_ex07.json
+resource/Arknights-Tile-Pos/act54side_ex08-activities-act54side-level_act54side_ex08.json
+resource/Arknights-Tile-Pos/act54side_ex08#f#-activities-act54side-level_act54side_ex08.json
 resource/Arknights-Tile-Pos/act54side_tr01-activities-act54side-level_act54side_tr01.json
 resource/Arknights-Tile-Pos/act5bossrush_01-activities-act5bossrush-level_bossrush5_01.json
 resource/Arknights-Tile-Pos/act5bossrush_02-activities-act5bossrush-level_bossrush5_02.json
@@ -4844,6 +4860,7 @@ resource/global/txwy/resource/tasks/RA/base.json
 resource/global/txwy/resource/tasks/RA/Reclamation2.json
 resource/global/txwy/resource/tasks/RA/Tales.json
 resource/global/txwy/resource/tasks/Roguelike/base.json
+resource/global/txwy/resource/tasks/Roguelike/BlackFlow.json
 resource/global/txwy/resource/tasks/Roguelike/JieGarden.json
 resource/global/txwy/resource/tasks/Roguelike/Mizuki.json
 resource/global/txwy/resource/tasks/Roguelike/Phantom.json
@@ -5379,6 +5396,7 @@ resource/global/YoStarEN/resource/tasks/RA/base.json
 resource/global/YoStarEN/resource/tasks/RA/Reclamation2.json
 resource/global/YoStarEN/resource/tasks/RA/Tales.json
 resource/global/YoStarEN/resource/tasks/Roguelike/base.json
+resource/global/YoStarEN/resource/tasks/Roguelike/BlackFlow.json
 resource/global/YoStarEN/resource/tasks/Roguelike/JieGarden.json
 resource/global/YoStarEN/resource/tasks/Roguelike/Mizuki.json
 resource/global/YoStarEN/resource/tasks/Roguelike/Phantom.json
@@ -5415,6 +5433,7 @@ resource/global/YoStarEN/resource/tasks/Stages/MT.json
 resource/global/YoStarEN/resource/tasks/Stages/OD.json
 resource/global/YoStarEN/resource/tasks/Stages/OF.json
 resource/global/YoStarEN/resource/tasks/Stages/OR.json
+resource/global/YoStarEN/resource/tasks/Stages/PA.json
 resource/global/YoStarEN/resource/tasks/Stages/PV.json
 resource/global/YoStarEN/resource/tasks/Stages/RS.json
 resource/global/YoStarEN/resource/tasks/Stages/SL.json
@@ -5483,6 +5502,7 @@ resource/global/YoStarEN/resource/template/Gacha/GachaConfirm.png
 resource/global/YoStarEN/resource/template/InfrastPic/AddOperator/AddOperatorMfgAggressive.png
 resource/global/YoStarEN/resource/template/InfrastPic/AddOperator/AddOperatorReceptionGentle.png
 resource/global/YoStarEN/resource/template/InfrastPic/AddOperator/AddOperatorTradeAggressive.png
+resource/global/YoStarEN/resource/template/InfrastPic/Assistant/AssistantConfirmButton.png
 resource/global/YoStarEN/resource/template/InfrastPic/Clue/Clue.png
 resource/global/YoStarEN/resource/template/InfrastPic/Clue/ClueVacancyNo1.png
 resource/global/YoStarEN/resource/template/InfrastPic/Clue/ClueVacancyNo2.png
@@ -5956,6 +5976,7 @@ resource/global/YoStarJP/resource/tasks/RA/base.json
 resource/global/YoStarJP/resource/tasks/RA/Reclamation2.json
 resource/global/YoStarJP/resource/tasks/RA/Tales.json
 resource/global/YoStarJP/resource/tasks/Roguelike/base.json
+resource/global/YoStarJP/resource/tasks/Roguelike/BlackFlow.json
 resource/global/YoStarJP/resource/tasks/Roguelike/JieGarden.json
 resource/global/YoStarJP/resource/tasks/Roguelike/Mizuki.json
 resource/global/YoStarJP/resource/tasks/Roguelike/Phantom.json
@@ -6057,6 +6078,7 @@ resource/global/YoStarJP/resource/template/InfrastCloseQuickFormationExpandRole.
 resource/global/YoStarJP/resource/template/InfrastPic/AddOperator/AddOperatorMfgAggressive.png
 resource/global/YoStarJP/resource/template/InfrastPic/AddOperator/AddOperatorReceptionGentle.png
 resource/global/YoStarJP/resource/template/InfrastPic/AddOperator/AddOperatorTradeAggressive.png
+resource/global/YoStarJP/resource/template/InfrastPic/Assistant/AssistantConfirmButton.png
 resource/global/YoStarJP/resource/template/InfrastPic/Clue/Clue.png
 resource/global/YoStarJP/resource/template/InfrastPic/Clue/ClueVacancyNo1.png
 resource/global/YoStarJP/resource/template/InfrastPic/Clue/ClueVacancyNo2.png
@@ -6507,6 +6529,7 @@ resource/global/YoStarKR/resource/tasks/RA/base.json
 resource/global/YoStarKR/resource/tasks/RA/Reclamation2.json
 resource/global/YoStarKR/resource/tasks/RA/Tales.json
 resource/global/YoStarKR/resource/tasks/Roguelike/base.json
+resource/global/YoStarKR/resource/tasks/Roguelike/BlackFlow.json
 resource/global/YoStarKR/resource/tasks/Roguelike/JieGarden.json
 resource/global/YoStarKR/resource/tasks/Roguelike/Mizuki.json
 resource/global/YoStarKR/resource/tasks/Roguelike/Phantom.json
@@ -6537,6 +6560,7 @@ resource/global/YoStarKR/resource/tasks/Stages/OD.json
 resource/global/YoStarKR/resource/tasks/Stages/OF.json
 resource/global/YoStarKR/resource/tasks/Stages/OR.json
 resource/global/YoStarKR/resource/tasks/Stages/OS.json
+resource/global/YoStarKR/resource/tasks/Stages/PA.json
 resource/global/YoStarKR/resource/tasks/Stages/PV.json
 resource/global/YoStarKR/resource/tasks/Stages/RS.json
 resource/global/YoStarKR/resource/tasks/Stages/SL.json
@@ -6603,6 +6627,7 @@ resource/global/YoStarKR/resource/template/Gacha/GachaConfirm.png
 resource/global/YoStarKR/resource/template/InfrastPic/AddOperator/AddOperatorMfgAggressive.png
 resource/global/YoStarKR/resource/template/InfrastPic/AddOperator/AddOperatorReceptionGentle.png
 resource/global/YoStarKR/resource/template/InfrastPic/AddOperator/AddOperatorTradeAggressive.png
+resource/global/YoStarKR/resource/template/InfrastPic/Assistant/AssistantConfirmButton.png
 resource/global/YoStarKR/resource/template/InfrastPic/Clue/Clue.png
 resource/global/YoStarKR/resource/template/InfrastPic/Clue/ClueVacancyNo1.png
 resource/global/YoStarKR/resource/template/InfrastPic/Clue/ClueVacancyNo2.png
@@ -8162,6 +8187,9 @@ resource/template/InfrastPic/AddOperator/AddOperatorMfgGentle.png
 resource/template/InfrastPic/AddOperator/AddOperatorReceptionGentle.png
 resource/template/InfrastPic/AddOperator/AddOperatorTradeAggressive.png
 resource/template/InfrastPic/AddOperator/AddOperatorTradeGentle.png
+resource/template/InfrastPic/Assistant/AssistantConfirmButton.png
+resource/template/InfrastPic/Assistant/AssistantEnter.png
+resource/template/InfrastPic/Assistant/AssistantFlag.png
 resource/template/InfrastPic/Clue/CloseCluePage.png
 resource/template/InfrastPic/Clue/CloseSendClue.png
 resource/template/InfrastPic/Clue/Clue.png
@@ -9072,6 +9100,8 @@ resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@hide_invisible.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@HuntedConfirm.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@incident.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@informant.png
+resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@InventoryCapacityConfirm.png
+resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@InventoryFullFlag.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@LastReward.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@LastReward2.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@LastReward3.png
