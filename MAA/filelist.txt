@@ -4830,6 +4830,7 @@ resource/custom_infrast/153_layout_3_times_a_day.json
 resource/custom_infrast/153_layout_4_times_a_day.json
 resource/custom_infrast/243_layout_3_times_a_day.json
 resource/custom_infrast/243_layout_4_times_a_day.json
+resource/custom_infrast/252_layout_3_times_a_day.json
 resource/custom_infrast/333_layout_for_Orundum_3_times_a_day.json
 resource/custom_infrast/old/153_layout_3_times_a_day_(yostar).json
 resource/custom_infrast/old/153_layout_3_times_a_day_20231103.json
@@ -4967,6 +4968,7 @@ resource/global/txwy/resource/template/Gacha/GachaSkip.png
 resource/global/txwy/resource/template/InfrastPic/AddOperator/AddOperatorMfgAggressive.png
 resource/global/txwy/resource/template/InfrastPic/AddOperator/AddOperatorReceptionGentle.png
 resource/global/txwy/resource/template/InfrastPic/AddOperator/AddOperatorTradeAggressive.png
+resource/global/txwy/resource/template/InfrastPic/Assistant/AssistantConfirmButton.png
 resource/global/txwy/resource/template/InfrastPic/Clue/Clue.png
 resource/global/txwy/resource/template/InfrastPic/Clue/ClueVacancyNo1.png
 resource/global/txwy/resource/template/InfrastPic/Clue/ClueVacancyNo2.png
@@ -6011,6 +6013,7 @@ resource/global/YoStarJP/resource/tasks/Stages/OD.json
 resource/global/YoStarJP/resource/tasks/Stages/OF.json
 resource/global/YoStarJP/resource/tasks/Stages/OR.json
 resource/global/YoStarJP/resource/tasks/Stages/OS.json
+resource/global/YoStarJP/resource/tasks/Stages/PA.json
 resource/global/YoStarJP/resource/tasks/Stages/PV.json
 resource/global/YoStarJP/resource/tasks/Stages/RS.json
 resource/global/YoStarJP/resource/tasks/Stages/SL.json
@@ -7440,6 +7443,9 @@ resource/template/Award/Mail/MailWithoutAward.png
 resource/template/Award/Mail/ReceivedAllMail.png
 resource/template/Award/Mail/ReceiveMail.png
 resource/template/Award/ReceiveAward.png
+resource/template/Award/SignInEventClaimedCheck.png
+resource/template/Award/SignInEventCostumeWear.png
+resource/template/Award/SignInEventEntryIcon.png
 resource/template/Award/WeeklyTask.png
 resource/template/Battle/BattleFlag/AbandonAction.png
 resource/template/Battle/BattleFlag/BattleCostFlag.png
@@ -7488,6 +7494,7 @@ resource/template/Battle/Formation/BattleQuickFormation/BattleQuickFormationModu
 resource/template/Battle/Formation/BattleQuickFormation/BattleQuickFormationModule-2-B.png
 resource/template/Battle/Formation/BattleQuickFormation/BattleQuickFormationModule-3.png
 resource/template/Battle/Formation/BattleQuickFormation/BattleQuickFormationModule-4.png
+resource/template/Battle/Formation/BattleQuickFormation/BattleQuickFormationModule-5.png
 resource/template/Battle/Formation/BattleQuickFormation/BattleQuickFormationRole-All.png
 resource/template/Battle/Formation/BattleQuickFormation/BattleQuickFormationRole-Caster.png
 resource/template/Battle/Formation/BattleQuickFormation/BattleQuickFormationRole-Medic.png
