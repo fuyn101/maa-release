@@ -4976,6 +4976,7 @@ resource/global/txwy/resource/PaddleOCR/rec/keys.txt
 resource/global/txwy/resource/PaddleOCR/rec/version.txt
 resource/global/txwy/resource/recruitment.json
 resource/global/txwy/resource/tasks/MiniGame/ALL.json
+resource/global/txwy/resource/tasks/MiniGame/CursedRelic.json
 resource/global/txwy/resource/tasks/MiniGame/MaterialSynthesis.json
 resource/global/txwy/resource/tasks/MiniGame/OS.json
 resource/global/txwy/resource/tasks/MiniGame/SecretFront.json
@@ -5520,6 +5521,7 @@ resource/global/YoStarEN/resource/PaddleOCR/rec/keys.txt
 resource/global/YoStarEN/resource/PaddleOCR/rec/version.txt
 resource/global/YoStarEN/resource/recruitment.json
 resource/global/YoStarEN/resource/tasks/MiniGame/ALL.json
+resource/global/YoStarEN/resource/tasks/MiniGame/CursedRelic.json
 resource/global/YoStarEN/resource/tasks/MiniGame/MaterialSynthesis.json
 resource/global/YoStarEN/resource/tasks/MiniGame/OS.json
 resource/global/YoStarEN/resource/tasks/MiniGame/SecretFront.json
@@ -6105,6 +6107,7 @@ resource/global/YoStarJP/resource/PaddleOCR/rec/keys.txt
 resource/global/YoStarJP/resource/PaddleOCR/rec/version.txt
 resource/global/YoStarJP/resource/recruitment.json
 resource/global/YoStarJP/resource/tasks/MiniGame/ALL.json
+resource/global/YoStarJP/resource/tasks/MiniGame/CursedRelic.json
 resource/global/YoStarJP/resource/tasks/MiniGame/MaterialSynthesis.json
 resource/global/YoStarJP/resource/tasks/MiniGame/OS.json
 resource/global/YoStarJP/resource/tasks/MiniGame/SecretFront.json
@@ -6666,6 +6669,7 @@ resource/global/YoStarKR/resource/PaddleOCR/rec/keys.txt
 resource/global/YoStarKR/resource/PaddleOCR/rec/version.txt
 resource/global/YoStarKR/resource/recruitment.json
 resource/global/YoStarKR/resource/tasks/MiniGame/ALL.json
+resource/global/YoStarKR/resource/tasks/MiniGame/CursedRelic.json
 resource/global/YoStarKR/resource/tasks/MiniGame/MaterialSynthesis.json
 resource/global/YoStarKR/resource/tasks/MiniGame/OS.json
 resource/global/YoStarKR/resource/tasks/MiniGame/SecretFront.json
@@ -7503,6 +7507,7 @@ resource/tasks/Copilot/formation.json
 resource/tasks/MiniGame/ALL.json
 resource/tasks/MiniGame/AT.json
 resource/tasks/MiniGame/AutoRaisePotential.json
+resource/tasks/MiniGame/CursedRelic.json
 resource/tasks/MiniGame/InteractiveExhibition.json
 resource/tasks/MiniGame/MaterialSynthesis.json
 resource/tasks/MiniGame/OS.json
