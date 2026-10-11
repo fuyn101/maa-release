@@ -6230,6 +6230,7 @@ resource/global/YoStarJP/resource/template/Battle/Formation/BattleQuickFormation
 resource/global/YoStarJP/resource/template/Battle/Formation/BattleSupportUnitFormation.png
 resource/global/YoStarJP/resource/template/Battle/Formation/ClearSelection.png
 resource/global/YoStarJP/resource/template/Battle/Plot/SkipThePreBattlePlot.png
+resource/global/YoStarJP/resource/template/Battle/Sanity/Stone/NoStone.png
 resource/global/YoStarJP/resource/template/Battle/Series/FightSeries-Indicator.png
 resource/global/YoStarJP/resource/template/Battle/Series/FightSeries-List-Exceeded.png
 resource/global/YoStarJP/resource/template/Battle/SSS/SSSCloseTip.png
