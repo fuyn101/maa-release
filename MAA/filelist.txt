@@ -6692,6 +6692,12 @@ resource/global/YoStarJP/resource/template/UiTheme/MistCity/OperBoxEnter.png
 resource/global/YoStarJP/resource/template/UiTheme/MistCity/Recruit.png
 resource/global/YoStarJP/resource/template/UiTheme/MistCity/Task.png
 resource/global/YoStarJP/resource/template/UiTheme/MistCity/Terminal.png
+resource/global/YoStarJP/resource/template/UiTheme/Reconstruct/DepotEnter.png
+resource/global/YoStarJP/resource/template/UiTheme/Reconstruct/Friends.png
+resource/global/YoStarJP/resource/template/UiTheme/Reconstruct/GachaEnter.png
+resource/global/YoStarJP/resource/template/UiTheme/Reconstruct/Mall.png
+resource/global/YoStarJP/resource/template/UiTheme/Reconstruct/Recruit.png
+resource/global/YoStarJP/resource/template/UiTheme/Reconstruct/Terminal.png
 resource/global/YoStarJP/resource/template/UiTheme/Sami/DepotEnter.png
 resource/global/YoStarJP/resource/template/UiTheme/Sami/EnterInfrast.png
 resource/global/YoStarJP/resource/template/UiTheme/Sami/Friends.png
@@ -8945,6 +8951,8 @@ resource/template/InfrastPic/Facilities/PureColorTrade.png
 resource/template/InfrastPic/Facilities/PureColorTradeMini.png
 resource/template/InfrastPic/Facilities/Reception.png
 resource/template/InfrastPic/Facilities/ReceptionMini.png
+resource/template/InfrastPic/Facilities/Recycle.png
+resource/template/InfrastPic/Facilities/RecycleMini.png
 resource/template/InfrastPic/Facilities/TradeLevelMini.png
 resource/template/InfrastPic/Facilities/Training.png
 resource/template/InfrastPic/Facilities/TrainingMini.png
