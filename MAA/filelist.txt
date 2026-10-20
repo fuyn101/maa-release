@@ -6486,6 +6486,7 @@ resource/global/YoStarJP/resource/template/Roguelike/JieGarden/JieGarden@Rogueli
 resource/global/YoStarJP/resource/template/Roguelike/JieGarden/JieGarden@Roguelike@StageEmergencyOpsEnter.png
 resource/global/YoStarJP/resource/template/Roguelike/JieGarden/JieGarden@Roguelike@StageEncounterEnter.png
 resource/global/YoStarJP/resource/template/Roguelike/JieGarden/JieGarden@Roguelike@StageEncounterLeaveConfirm.png
+resource/global/YoStarJP/resource/template/Roguelike/JieGarden/JieGarden@Roguelike@StageEncounterLeaveConfirm720p.png
 resource/global/YoStarJP/resource/template/Roguelike/JieGarden/JieGarden@Roguelike@StageSafeHouseEnter.png
 resource/global/YoStarJP/resource/template/Roguelike/JieGarden/JieGarden@Roguelike@StageTraderEnter.png
 resource/global/YoStarJP/resource/template/Roguelike/JieGarden/JieGarden@Roguelike@StageYiTraderEnter.png
@@ -9926,6 +9927,10 @@ resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-M08.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-M09.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-M10.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-M11.png
+resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-M13.png
+resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-M14.png
+resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-M15.png
+resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-M16.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@Movement-Walk.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@MovementInventoryCollapse.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@MovePreviewCannotEnter.png
