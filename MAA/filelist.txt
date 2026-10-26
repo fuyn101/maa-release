@@ -1470,6 +1470,18 @@ resource/Arknights-Tile-Pos/act1multi_rm07-activities-act1multi-level_act1multi_
 resource/Arknights-Tile-Pos/act1multi_tr01-activities-act1multi-level_act1multi_tr01.json
 resource/Arknights-Tile-Pos/act1multi_tr02-activities-act1multi-level_act1multi_tr02.json
 resource/Arknights-Tile-Pos/act1multi_tr03-activities-act1multi-level_act1multi_tr03.json
+resource/Arknights-Tile-Pos/act1museum_m1_01-activities-act1museum-level_act1museum_m1_01.json
+resource/Arknights-Tile-Pos/act1museum_m1_02-activities-act1museum-level_act1museum_m1_02.json
+resource/Arknights-Tile-Pos/act1museum_m1_03-activities-act1museum-level_act1museum_m1_03.json
+resource/Arknights-Tile-Pos/act1museum_m2_01-activities-act1museum-level_act1museum_m2_01.json
+resource/Arknights-Tile-Pos/act1museum_m2_02-activities-act1museum-level_act1museum_m2_02.json
+resource/Arknights-Tile-Pos/act1museum_m2_03-activities-act1museum-level_act1museum_m2_03.json
+resource/Arknights-Tile-Pos/act1museum_m3_01-activities-act1museum-level_act1museum_m3_01.json
+resource/Arknights-Tile-Pos/act1museum_m3_02-activities-act1museum-level_act1museum_m3_02.json
+resource/Arknights-Tile-Pos/act1museum_m3_03-activities-act1museum-level_act1museum_m3_03.json
+resource/Arknights-Tile-Pos/act1museum_m4_01-activities-act1museum-level_act1museum_m4_01.json
+resource/Arknights-Tile-Pos/act1museum_m4_02-activities-act1museum-level_act1museum_m4_02.json
+resource/Arknights-Tile-Pos/act1museum_m4_03-activities-act1museum-level_act1museum_m4_03.json
 resource/Arknights-Tile-Pos/act1vautochess_m01-activities-act1vautochess-level_act1vautochess_m01.json
 resource/Arknights-Tile-Pos/act1vautochess_m02-activities-act1vautochess-level_act1vautochess_m02.json
 resource/Arknights-Tile-Pos/act1vautochess_m03-activities-act1vautochess-level_act1vautochess_m03.json
@@ -2862,6 +2874,7 @@ resource/Arknights-Tile-Pos/camp_r_30-obt-campaign-level_camp_r_30.json
 resource/Arknights-Tile-Pos/camp_r_31-obt-campaign-level_camp_r_31.json
 resource/Arknights-Tile-Pos/camp_r_32-obt-campaign-level_camp_r_32.json
 resource/Arknights-Tile-Pos/camp_r_33-obt-campaign-level_camp_r_33.json
+resource/Arknights-Tile-Pos/camp_r_34-obt-campaign-level_camp_r_34.json
 resource/Arknights-Tile-Pos/easy_09-01-obt-main-level_easy_09-01.json
 resource/Arknights-Tile-Pos/easy_09-02-obt-main-level_easy_09-02.json
 resource/Arknights-Tile-Pos/easy_09-03-obt-main-level_easy_09-03.json
@@ -9273,6 +9286,7 @@ resource/template/items/act1lock_point_reward.png
 resource/template/items/act1mainlinebp_token_star.png
 resource/template/items/act1mainss_token_medi.png
 resource/template/items/act1multi_token_cap.png
+resource/template/items/act1museum_milestone_point.png
 resource/template/items/act1sandbox_milestone_point.png
 resource/template/items/act1teamquest_point.png
 resource/template/items/act1vautochess_token_chess.png
@@ -9512,6 +9526,7 @@ resource/template/items/randomMaterial_5d5.png
 resource/template/items/randomMaterial_6.png
 resource/template/items/randomMaterial_6d5.png
 resource/template/items/randomMaterial_7.png
+resource/template/items/randomMaterial_7d5.png
 resource/template/items/randomMaterial_8.png
 resource/template/items/randomMaterial_9.png
 resource/template/items/randomMaterial_act38side.png
@@ -9681,7 +9696,6 @@ resource/template/MiningActivity/MiningActivityConfirm.png
 resource/template/MiningActivity/Orundum/OrundumActivitiesClick.png
 resource/template/MiningActivity/Orundum/OrundumActivitiesClickBazaar.png
 resource/template/MiningActivity/Orundum/OrundumActivitiesClickParty.png
-resource/template/MiningActivity/Orundum/OrundumActivitiesEarnRewards.png
 resource/template/OfflineConfirm.png
 resource/template/OperBox/OperBoxBadgeTop.png
 resource/template/OperBox/OperBoxFirstOperatorBadge.png
@@ -9863,6 +9877,7 @@ resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@battle_normal.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@battle_savage.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@ChooseDifficulty.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@ChooseOperConfirm.png
+resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@ChooseOperConfirmWithBuff.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@CloseCollection.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@CloseCollectionContinue.png
 resource/template/Roguelike/BlackFlow/BlackFlow@Roguelike@CloseEvent.png
