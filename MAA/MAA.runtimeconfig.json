@@ -1,8 +1,5 @@
 {
   "runtimeOptions": {
-    "additionalProbingPaths": [
-      "./externals"
-    ],
     "configProperties": {
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
       "NetBeautyLibsDir": ".;./externals",

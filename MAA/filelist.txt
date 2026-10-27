@@ -1,3 +1,5 @@
+clrjit.dll
+coreclr.dll
 DependencySetup_依赖库安装.bat
 DirectML.dll
 externals/Accessibility.dll
@@ -6,8 +8,6 @@ externals/CalcBinding.dll
 externals/clretwrc.dll
 externals/clrgc.dll
 externals/clrgcexp.dll
-externals/clrjit.dll
-externals/coreclr.dll
 externals/createdump.exe
 externals/D3DCompiler_47_cor3.dll
 externals/DirectWriteForwarder.dll
@@ -18,7 +18,6 @@ externals/HandyControl.dll
 externals/HtmlAgilityPack.dll
 externals/ICSharpCode.AvalonEdit.dll
 externals/JetBrains.Annotations.dll
-externals/libloader.dll
 externals/locales/cs/Microsoft.VisualBasic.Forms.resources.dll
 externals/locales/cs/PresentationCore.resources.dll
 externals/locales/cs/PresentationFramework.resources.dll
@@ -282,7 +281,6 @@ externals/PresentationFramework.Aero.dll
 externals/PresentationFramework.Aero2.dll
 externals/PresentationFramework.AeroLite.dll
 externals/PresentationFramework.Classic.dll
-externals/PresentationFramework.dll
 externals/PresentationFramework.Fluent.dll
 externals/PresentationFramework.Luna.dll
 externals/PresentationFramework.Royale.dll
@@ -299,7 +297,6 @@ externals/System.AppContext.dll
 externals/System.Buffers.dll
 externals/System.CodeDom.dll
 externals/System.Collections.Concurrent.dll
-externals/System.Collections.dll
 externals/System.Collections.Immutable.dll
 externals/System.Collections.NonGeneric.dll
 externals/System.Collections.Specialized.dll
@@ -350,13 +347,11 @@ externals/System.IO.Compression.Native.dll
 externals/System.IO.Compression.ZipFile.dll
 externals/System.IO.dll
 externals/System.IO.FileSystem.AccessControl.dll
-externals/System.IO.FileSystem.dll
 externals/System.IO.FileSystem.DriveInfo.dll
 externals/System.IO.FileSystem.Primitives.dll
 externals/System.IO.FileSystem.Watcher.dll
 externals/System.IO.IsolatedStorage.dll
 externals/System.IO.MemoryMappedFiles.dll
-externals/System.IO.Packaging.dll
 externals/System.IO.Pipelines.dll
 externals/System.IO.Pipes.AccessControl.dll
 externals/System.IO.Pipes.dll
@@ -367,7 +362,6 @@ externals/System.Linq.Expressions.dll
 externals/System.Linq.Parallel.dll
 externals/System.Linq.Queryable.dll
 externals/System.Management.dll
-externals/System.Memory.dll
 externals/System.Net.dll
 externals/System.Net.Http.dll
 externals/System.Net.Http.Json.dll
@@ -392,7 +386,6 @@ externals/System.Numerics.dll
 externals/System.Numerics.Vectors.dll
 externals/System.ObjectModel.dll
 externals/System.Printing.dll
-externals/System.Private.CoreLib.dll
 externals/System.Private.DataContractSerialization.dll
 externals/System.Private.Uri.dll
 externals/System.Private.Windows.Core.dll
@@ -414,14 +407,9 @@ externals/System.Resources.ResourceManager.dll
 externals/System.Resources.Writer.dll
 externals/System.Runtime.CompilerServices.Unsafe.dll
 externals/System.Runtime.CompilerServices.VisualC.dll
-externals/System.Runtime.dll
-externals/System.Runtime.Extensions.dll
 externals/System.Runtime.Handles.dll
-externals/System.Runtime.InteropServices.dll
 externals/System.Runtime.InteropServices.JavaScript.dll
-externals/System.Runtime.InteropServices.RuntimeInformation.dll
 externals/System.Runtime.Intrinsics.dll
-externals/System.Runtime.Loader.dll
 externals/System.Runtime.Numerics.dll
 externals/System.Runtime.Serialization.dll
 externals/System.Runtime.Serialization.Formatters.dll
@@ -480,7 +468,6 @@ externals/System.Windows.Forms.Primitives.dll
 externals/System.Windows.Input.Manipulations.dll
 externals/System.Windows.Presentation.dll
 externals/System.Windows.Primitives.dll
-externals/System.Xaml.dll
 externals/System.Xml.dll
 externals/System.Xml.Linq.dll
 externals/System.Xml.ReaderWriter.dll
@@ -495,13 +482,13 @@ externals/UIAutomationClientSideProviders.dll
 externals/UIAutomationProvider.dll
 externals/UIAutomationTypes.dll
 externals/vcruntime140_cor3.dll
-externals/WindowsBase.dll
 externals/WindowsFormsIntegration.dll
 externals/WinRT.Runtime.dll
 externals/wpfgfx_cor3.dll
 fastdeploy_ppocr_maa.dll
 hostfxr.dll
 hostpolicy.dll
+libloader.dll
 MAA.deps.json
 MAA.dll
 MAA.exe
@@ -513,6 +500,7 @@ MaaUtils.dll
 MaaWin32ControlUnit.dll
 onnxruntime_maa.dll
 opencv_world4_maa.dll
+PresentationFramework.dll
 Python/asst/__init__.py
 Python/asst/asst.py
 Python/asst/downloader.py
@@ -10742,3 +10730,15 @@ resource/template/WakeUp/StartToWakeUp.png
 resource/template/WakeUp/StartUpConnectingFlag.png
 resource/template/WakeUp/StartWithSanity.png
 resource/version.json
+System.Collections.dll
+System.IO.FileSystem.dll
+System.IO.Packaging.dll
+System.Memory.dll
+System.Private.CoreLib.dll
+System.Runtime.dll
+System.Runtime.Extensions.dll
+System.Runtime.InteropServices.dll
+System.Runtime.InteropServices.RuntimeInformation.dll
+System.Runtime.Loader.dll
+System.Xaml.dll
+WindowsBase.dll
