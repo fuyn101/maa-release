@@ -5618,6 +5618,7 @@ resource/global/YoStarEN/resource/tasks/MiniGame/OS.json
 resource/global/YoStarEN/resource/tasks/MiniGame/SecretFront.json
 resource/global/YoStarEN/resource/tasks/RA/base.json
 resource/global/YoStarEN/resource/tasks/RA/Reclamation2.json
+resource/global/YoStarEN/resource/tasks/RA/Reclamation3.json
 resource/global/YoStarEN/resource/tasks/RA/Tales.json
 resource/global/YoStarEN/resource/tasks/Roguelike/base.json
 resource/global/YoStarEN/resource/tasks/Roguelike/BlackFlow.json
@@ -6213,6 +6214,7 @@ resource/global/YoStarJP/resource/tasks/MiniGame/SecretFront.json
 resource/global/YoStarJP/resource/tasks/MiniGame/SPA.json
 resource/global/YoStarJP/resource/tasks/RA/base.json
 resource/global/YoStarJP/resource/tasks/RA/Reclamation2.json
+resource/global/YoStarJP/resource/tasks/RA/Reclamation3.json
 resource/global/YoStarJP/resource/tasks/RA/Tales.json
 resource/global/YoStarJP/resource/tasks/Roguelike/base.json
 resource/global/YoStarJP/resource/tasks/Roguelike/BlackFlow.json
@@ -6785,6 +6787,7 @@ resource/global/YoStarKR/resource/tasks/MiniGame/OS.json
 resource/global/YoStarKR/resource/tasks/MiniGame/SecretFront.json
 resource/global/YoStarKR/resource/tasks/RA/base.json
 resource/global/YoStarKR/resource/tasks/RA/Reclamation2.json
+resource/global/YoStarKR/resource/tasks/RA/Reclamation3.json
 resource/global/YoStarKR/resource/tasks/RA/Tales.json
 resource/global/YoStarKR/resource/tasks/Roguelike/base.json
 resource/global/YoStarKR/resource/tasks/Roguelike/BlackFlow.json
@@ -7365,6 +7368,7 @@ resource/platform_diff/iOS/resource/template/Logout.png
 resource/platform_diff/iOS/resource/template/LogoutConfirm.png
 resource/platform_diff/iOS/resource/template/RelaunchAnchor@RA@DoubleSpeed.png
 resource/platform_diff/PC/resource/tasks/tasks.json
+resource/platform_diff/PC/resource/template/Roguelike/base/Roguelike@StageTraderInvestSystemPC.png
 resource/recruitment.json
 resource/roguelike/BlackFlow/autopilot/暗箭难防.json
 resource/roguelike/BlackFlow/encounter/default.json
@@ -8384,7 +8388,6 @@ resource/template/Credit/Friend/VisitNextBlack.png
 resource/template/Credit/Store/BuyIt.png
 resource/template/Credit/Store/CollectCredit.png
 resource/template/Credit/Store/CreditPoint.png
-resource/template/Credit/Store/CreditShop-Bought.png
 resource/template/Credit/Store/CreditStore.png
 resource/template/Credit/Store/CreditStoreFailed.png
 resource/template/Credit/Store/CrisisPopup.png
@@ -9094,6 +9097,7 @@ resource/template/InfrastPic/Training/TrainingCurrentLevel0.png
 resource/template/InfrastPic/Training/TrainingCurrentLevel1.png
 resource/template/InfrastPic/Training/TrainingCurrentLevel2.png
 resource/template/InfrastPic/Training/TrainingCurrentLevel3.png
+resource/template/ItemObtainedIcon.png
 resource/template/items/1stact.png
 resource/template/items/2001.png
 resource/template/items/2002.png
