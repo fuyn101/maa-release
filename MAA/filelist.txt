@@ -7241,6 +7241,7 @@ resource/tasks/MiniGame/PV-Reproduction.py
 resource/tasks/MiniGame/RebuildingMandate.json
 resource/tasks/MiniGame/SecretFront.json
 resource/tasks/MiniGame/SPA.json
+resource/tasks/MiniGame/WartimePressCommittee.json
 resource/tasks/RA/plugin/base.json
 resource/tasks/RA/plugin/Tales.json
 resource/tasks/RA/Reclamation2.json
@@ -9306,6 +9307,9 @@ resource/template/MiniGame/SS@Store/SS@Store@WearCostume.png
 resource/template/MiniGame/TicketStore/GreenTicket@Store@SecondFloor-Check.png
 resource/template/MiniGame/TicketStore/RedTicket@Store@EnterTicketStore@FirstGood.png
 resource/template/MiniGame/TicketStore/Store@Increase.png
+resource/template/MiniGame/WartimePressCommittee/MiniGame@WartimePressCommittee@Max.png
+resource/template/MiniGame/WartimePressCommittee/MiniGame@WartimePressCommittee@MaxButton.png
+resource/template/MiniGame/WartimePressCommittee/MiniGame@WartimePressCommittee@NextPage.png
 resource/template/MiningActivity/MiningActivityConfirm.png
 resource/template/MiningActivity/Orundum/OrundumActivitiesClick.png
 resource/template/MiningActivity/Orundum/OrundumActivitiesClickBazaar.png
@@ -10146,6 +10150,7 @@ resource/template/StageNavigation/SideStory/TD/TD-Open.png
 resource/template/StageNavigation/SideStory/TD/TD-P-1.png
 resource/template/StageNavigation/SideStory/TD/TDChapterToTD.png
 resource/template/StageNavigation/SideStory/TL/TLChapterToTL.png
+resource/template/StageNavigation/SideStory/TL/TLChapterToTL2.png
 resource/template/StageNavigation/SideStory/WB/WBChapterToWB.png
 resource/template/UiTheme/Default/DepotEnter-90.png
 resource/template/UiTheme/Default/DepotEnter.png
@@ -10165,13 +10170,9 @@ resource/template/UiTheme/Default/Task-90.png
 resource/template/UiTheme/Default/Task.png
 resource/template/UiTheme/Default/Terminal-90.png
 resource/template/UiTheme/Default/Terminal.png
-resource/template/UiTheme/SwitchTheme/SwitchTheme@CancelThemeChange-v2.png
 resource/template/UiTheme/SwitchTheme/SwitchTheme@CancelThemeChange.png
-resource/template/UiTheme/SwitchTheme/SwitchTheme@ChangeTheme-v2.png
 resource/template/UiTheme/SwitchTheme/SwitchTheme@ChangeTheme.png
-resource/template/UiTheme/SwitchTheme/SwitchTheme@ConfirmThemeChange-v2.png
 resource/template/UiTheme/SwitchTheme/SwitchTheme@ConfirmThemeChange.png
-resource/template/UiTheme/SwitchTheme/SwitchTheme@SelectLightTheme-v2.png
 resource/template/UiTheme/SwitchTheme/SwitchTheme@SelectLightTheme.png
 resource/template/UiTheme/SwitchTheme/SwitchTheme@ToggleSettingsMenu-v2.png
 resource/template/UiTheme/SwitchTheme/SwitchTheme@ToggleSettingsMenu.png

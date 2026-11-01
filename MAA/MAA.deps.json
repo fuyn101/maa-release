@@ -57,7 +57,7 @@
       "sha512": "sha512-TwbgxAkXxY+vNEhNVx/QXjJ4vqxmepOjsgRvvImQPbHkHMMb4W+ahL3laMsxXKtNT7iMy+E1B3xkqao2hf1n3A==",
       "type": "package"
     },
-    "MAA/6.21.0": {
+    "MAA/6.21.1": {
       "serviceable": false,
       "sha512": "",
       "type": "project"
@@ -264,7 +264,7 @@
       "JetBrains.Annotations/2025.2.4": {
         "runtime": {}
       },
-      "MAA/6.21.0": {
+      "MAA/6.21.1": {
         "dependencies": {
           "CalcBinding": "2.5.2",
           "GlobalHotKey": "1.1.0",
