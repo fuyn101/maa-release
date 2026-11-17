@@ -5108,6 +5108,7 @@ resource/global/txwy/resource/tasks/MiniGame/OS.json
 resource/global/txwy/resource/tasks/MiniGame/SecretFront.json
 resource/global/txwy/resource/tasks/RA/base.json
 resource/global/txwy/resource/tasks/RA/Reclamation2.json
+resource/global/txwy/resource/tasks/RA/Reclamation3.json
 resource/global/txwy/resource/tasks/RA/Tales.json
 resource/global/txwy/resource/tasks/Roguelike/base.json
 resource/global/txwy/resource/tasks/Roguelike/BlackFlow.json
@@ -5600,6 +5601,7 @@ resource/global/YoStarEN/resource/tasks/Stages/RS.json
 resource/global/YoStarEN/resource/tasks/Stages/SL.json
 resource/global/YoStarEN/resource/tasks/Stages/SN.json
 resource/global/YoStarEN/resource/tasks/Stages/TA.json
+resource/global/YoStarEN/resource/tasks/Stages/TD.json
 resource/global/YoStarEN/resource/tasks/Stages/UR.json
 resource/global/YoStarEN/resource/tasks/Stages/WB.json
 resource/global/YoStarEN/resource/tasks/Stages/ZT.json
@@ -6004,6 +6006,7 @@ resource/global/YoStarEN/resource/template/StageNavigation/Resource/StageSK.png
 resource/global/YoStarEN/resource/template/StageNavigation/SideStory/HS/HS-Open.png
 resource/global/YoStarEN/resource/template/StageNavigation/SideStory/IC/ICChapterToIC.png
 resource/global/YoStarEN/resource/template/StageNavigation/SideStory/SN/SN-Open.png
+resource/global/YoStarEN/resource/template/StageNavigation/SideStory/TD/TDChapterToTD.png
 resource/global/YoStarEN/resource/template/StageNavigation/SideStory/WB/WBChapterToWB.png
 resource/global/YoStarEN/resource/template/UiTheme/Default/DepotEnter.png
 resource/global/YoStarEN/resource/template/UiTheme/Default/EnterInfrast.png
@@ -6075,6 +6078,7 @@ resource/global/YoStarJP/resource/tasks/Stages/RS.json
 resource/global/YoStarJP/resource/tasks/Stages/SL.json
 resource/global/YoStarJP/resource/tasks/Stages/SN.json
 resource/global/YoStarJP/resource/tasks/Stages/TA.json
+resource/global/YoStarJP/resource/tasks/Stages/TD.json
 resource/global/YoStarJP/resource/tasks/Stages/UR.json
 resource/global/YoStarJP/resource/tasks/Stages/WB.json
 resource/global/YoStarJP/resource/tasks/Stages/ZT.json
@@ -6251,6 +6255,7 @@ resource/global/YoStarJP/resource/template/OperBoxRoleTab.png
 resource/global/YoStarJP/resource/template/OperBoxRoleTabSelect.png
 resource/global/YoStarJP/resource/template/RA/Tales/Tales@RA@Navigation-FromTodoList.png
 resource/global/YoStarJP/resource/template/Recruit/RecruitFinish.png
+resource/global/YoStarJP/resource/template/Recruit/RecruitNoPermit.png
 resource/global/YoStarJP/resource/template/Recruit/RecruitRefresh.png
 resource/global/YoStarJP/resource/template/ReturnButton/StageSNReturnFlag.png
 resource/global/YoStarJP/resource/template/Roguelike/base/Roguelike@ChooseOperConfirm.png
@@ -6476,6 +6481,7 @@ resource/global/YoStarJP/resource/template/StageNavigation/Resource/StagePR-D.pn
 resource/global/YoStarJP/resource/template/StageNavigation/Resource/StageSK.png
 resource/global/YoStarJP/resource/template/StageNavigation/SideStory/IC/ICChapterToIC.png
 resource/global/YoStarJP/resource/template/StageNavigation/SideStory/SN/SN-Open.png
+resource/global/YoStarJP/resource/template/StageNavigation/SideStory/TD/TDChapterToTD.png
 resource/global/YoStarJP/resource/template/StageNavigation/SideStory/WB/WBChapterToWB.png
 resource/global/YoStarJP/resource/template/UiTheme/Default/DepotEnter.png
 resource/global/YoStarJP/resource/template/UiTheme/Default/EnterInfrast.png
@@ -6543,6 +6549,7 @@ resource/global/YoStarKR/resource/tasks/Stages/PV.json
 resource/global/YoStarKR/resource/tasks/Stages/RS.json
 resource/global/YoStarKR/resource/tasks/Stages/SL.json
 resource/global/YoStarKR/resource/tasks/Stages/TA.json
+resource/global/YoStarKR/resource/tasks/Stages/TD.json
 resource/global/YoStarKR/resource/tasks/Stages/UR.json
 resource/global/YoStarKR/resource/tasks/Stages/WB.json
 resource/global/YoStarKR/resource/tasks/Stages/ZT.json
@@ -6820,6 +6827,7 @@ resource/global/YoStarKR/resource/template/Roguelike/Phantom/Phantom@Roguelike@C
 resource/global/YoStarKR/resource/template/Roguelike/Phantom/Phantom@Roguelike@Continue.png
 resource/global/YoStarKR/resource/template/Roguelike/Phantom/Phantom@Roguelike@EnterAfterRecruit.png
 resource/global/YoStarKR/resource/template/Roguelike/Phantom/Phantom@Roguelike@GamePass.png
+resource/global/YoStarKR/resource/template/Roguelike/Phantom/Phantom@Roguelike@GamePass4.png
 resource/global/YoStarKR/resource/template/Roguelike/Phantom/Phantom@Roguelike@GamePassSkip1.png
 resource/global/YoStarKR/resource/template/Roguelike/Phantom/Phantom@Roguelike@GetDrop1.png
 resource/global/YoStarKR/resource/template/Roguelike/Phantom/Phantom@Roguelike@GetDrop2.png
@@ -6940,6 +6948,7 @@ resource/global/YoStarKR/resource/template/StageNavigation/Resource/StagePR-C.pn
 resource/global/YoStarKR/resource/template/StageNavigation/Resource/StagePR-D.png
 resource/global/YoStarKR/resource/template/StageNavigation/Resource/StageSK.png
 resource/global/YoStarKR/resource/template/StageNavigation/SideStory/IC/ICChapterToIC.png
+resource/global/YoStarKR/resource/template/StageNavigation/SideStory/TD/TDChapterToTD.png
 resource/global/YoStarKR/resource/template/StageNavigation/SideStory/WB/WBChapterToWB.png
 resource/global/YoStarKR/resource/template/UiTheme/Default/DepotEnter.png
 resource/global/YoStarKR/resource/template/UiTheme/Default/EnterInfrast.png
