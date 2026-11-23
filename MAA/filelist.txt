@@ -2258,6 +2258,16 @@ resource/Arknights-Tile-Pos/act39side_ex07#f#-activities-act39side-level_act39si
 resource/Arknights-Tile-Pos/act39side_ex08-activities-act39side-level_act39side_ex08.json
 resource/Arknights-Tile-Pos/act39side_ex08#f#-activities-act39side-level_act39side_ex08.json
 resource/Arknights-Tile-Pos/act39side_tr01-activities-act39side-level_act39side_tr01.json
+resource/Arknights-Tile-Pos/act3autochess_m01-activities-act3autochess-level_act3autochess_m01.json
+resource/Arknights-Tile-Pos/act3autochess_m02-activities-act3autochess-level_act3autochess_m02.json
+resource/Arknights-Tile-Pos/act3autochess_m03-activities-act3autochess-level_act3autochess_m03.json
+resource/Arknights-Tile-Pos/act3autochess_m04-activities-act3autochess-level_act3autochess_m04.json
+resource/Arknights-Tile-Pos/act3autochess_m05-activities-act3autochess-level_act3autochess_m05.json
+resource/Arknights-Tile-Pos/act3autochess_m06-activities-act3autochess-level_act3autochess_m06.json
+resource/Arknights-Tile-Pos/act3autochess_m09-activities-act3autochess-level_act3autochess_m09.json
+resource/Arknights-Tile-Pos/act3autochess_m10-activities-act3autochess-level_act3autochess_m10.json
+resource/Arknights-Tile-Pos/act3autochess_m11-activities-act3autochess-level_act3autochess_m11.json
+resource/Arknights-Tile-Pos/act3autochess_m12-activities-act3autochess-level_act3autochess_m12.json
 resource/Arknights-Tile-Pos/act3bossrush_01-activities-act3bossrush-level_bossrush3_01.json
 resource/Arknights-Tile-Pos/act3bossrush_02-activities-act3bossrush-level_bossrush3_02.json
 resource/Arknights-Tile-Pos/act3bossrush_03-activities-act3bossrush-level_bossrush3_03.json
@@ -7269,7 +7279,7 @@ resource/tasks/MiniGame/PV-Reproduction.py
 resource/tasks/MiniGame/RebuildingMandate.json
 resource/tasks/MiniGame/SecretFront.json
 resource/tasks/MiniGame/SPA.json
-resource/tasks/MiniGame/WartimePressCommittee.json
+resource/tasks/MiniGame/TL.json
 resource/tasks/RA/plugin/base.json
 resource/tasks/RA/plugin/Tales.json
 resource/tasks/RA/Reclamation2.json
@@ -9259,6 +9269,7 @@ resource/template/MiniGame/OS/MiniGame@OS@CollectAction.png
 resource/template/MiniGame/OS/MiniGame@OS@Combo.png
 resource/template/MiniGame/OS/MiniGame@OS@EndTurn.png
 resource/template/MiniGame/OS/MiniGame@OS@MoveAction.png
+resource/template/MiniGame/OS/MiniGame@OS@NextStage.png
 resource/template/MiniGame/OS/MiniGame@OS@StartRebuild.png
 resource/template/MiniGame/PF/MiniGame@PF@DoubleSpeed.png
 resource/template/MiniGame/PF/MiniGame@PF@PF-1.png
@@ -9340,9 +9351,9 @@ resource/template/MiniGame/SS@Store/SS@Store@WearCostume.png
 resource/template/MiniGame/TicketStore/GreenTicket@Store@SecondFloor-Check.png
 resource/template/MiniGame/TicketStore/RedTicket@Store@EnterTicketStore@FirstGood.png
 resource/template/MiniGame/TicketStore/Store@Increase.png
-resource/template/MiniGame/WartimePressCommittee/MiniGame@WartimePressCommittee@Max.png
-resource/template/MiniGame/WartimePressCommittee/MiniGame@WartimePressCommittee@MaxButton.png
-resource/template/MiniGame/WartimePressCommittee/MiniGame@WartimePressCommittee@NextPage.png
+resource/template/MiniGame/TL/MiniGame@TL@Max.png
+resource/template/MiniGame/TL/MiniGame@TL@MaxButton.png
+resource/template/MiniGame/TL/MiniGame@TL@NextPage.png
 resource/template/MiningActivity/MiningActivityConfirm.png
 resource/template/MiningActivity/Orundum/OrundumActivitiesClick.png
 resource/template/MiningActivity/Orundum/OrundumActivitiesClickBazaar.png
