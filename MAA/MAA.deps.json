@@ -36,11 +36,11 @@
       "sha512": "sha512-KkEHhyM+sSh27kF1d3YlfpXdYlkfu17XCiI3WfYy1cn65y3loR7f+GMkMwHTgf0xSyS3QdXTKCRfVLzb7jgJFQ==",
       "type": "package"
     },
-    "HandyControls/3.6.0": {
-      "hashPath": "handycontrols.3.6.0.nupkg.sha512",
-      "path": "handycontrols/3.6.0",
+    "HandyControls/3.7.0": {
+      "hashPath": "handycontrols.3.7.0.nupkg.sha512",
+      "path": "handycontrols/3.7.0",
       "serviceable": true,
-      "sha512": "sha512-1xJD4+/VkZ+tg2GYIFDJmWsTA6yylxzuxZiNMMIv5i/zFlTfAyq+HMPGIZf9GkUObe3QQd9mbtWyDju9BLI9dg==",
+      "sha512": "sha512-FlfuUPRCYApu1Rtp89NAcSPtx4VU4qH6ZyL/X88SfwsheVn/HRWBp76xRq336FFQSpV09dENaEKCFHZG91//dg==",
       "type": "package"
     },
     "HtmlAgilityPack/1.11.42": {
@@ -57,7 +57,7 @@
       "sha512": "sha512-TwbgxAkXxY+vNEhNVx/QXjJ4vqxmepOjsgRvvImQPbHkHMMb4W+ahL3laMsxXKtNT7iMy+E1B3xkqao2hf1n3A==",
       "type": "package"
     },
-    "MAA/6.23.1": {
+    "MAA/6.23.2": {
       "serviceable": false,
       "sha512": "",
       "type": "project"
@@ -255,7 +255,7 @@
       "GlobalHotKey/1.1.0": {
         "runtime": {}
       },
-      "HandyControls/3.6.0": {
+      "HandyControls/3.7.0": {
         "runtime": {}
       },
       "HtmlAgilityPack/1.11.42": {
@@ -264,11 +264,11 @@
       "JetBrains.Annotations/2025.2.4": {
         "runtime": {}
       },
-      "MAA/6.23.1": {
+      "MAA/6.23.2": {
         "dependencies": {
           "CalcBinding": "2.5.2",
           "GlobalHotKey": "1.1.0",
-          "HandyControls": "3.6.0",
+          "HandyControls": "3.7.0",
           "JetBrains.Annotations": "2025.2.4",
           "MailKit": "4.16.0",
           "MdXaml": "1.27.0",

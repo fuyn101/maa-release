@@ -5746,6 +5746,8 @@ resource/global/YoStarEN/resource/template/MiniGame/OS/MiniGame@OS@ClickToContin
 resource/global/YoStarEN/resource/template/MiniGame/OS/MiniGame@OS@CollectAction.png
 resource/global/YoStarEN/resource/template/MiniGame/OS/MiniGame@OS@EndTurn.png
 resource/global/YoStarEN/resource/template/MiniGame/OS/MiniGame@OS@MoveAction.png
+resource/global/YoStarEN/resource/template/MiniGame/PF/MiniGame@PF@StartAction.png
+resource/global/YoStarEN/resource/template/MiniGame/PF/MiniGame@PF@StartCompetition.png
 resource/global/YoStarEN/resource/template/MiniGame/PV/MiniGame@PV@Confirm.png
 resource/global/YoStarEN/resource/template/MiniGame/PV/MiniGame@PV@MainInterface.png
 resource/global/YoStarEN/resource/template/MiniGame/RebuildingMandate/MiniGame@RM-1@BattleFailedClick.png
@@ -6224,6 +6226,8 @@ resource/global/YoStarJP/resource/template/MiniGame/OS/MiniGame@OS@ClickToContin
 resource/global/YoStarJP/resource/template/MiniGame/OS/MiniGame@OS@CollectAction.png
 resource/global/YoStarJP/resource/template/MiniGame/OS/MiniGame@OS@EndTurn.png
 resource/global/YoStarJP/resource/template/MiniGame/OS/MiniGame@OS@MoveAction.png
+resource/global/YoStarJP/resource/template/MiniGame/PF/MiniGame@PF@StartAction.png
+resource/global/YoStarJP/resource/template/MiniGame/PF/MiniGame@PF@StartCompetition.png
 resource/global/YoStarJP/resource/template/MiniGame/PV/MiniGame@PV@Confirm.png
 resource/global/YoStarJP/resource/template/MiniGame/PV/MiniGame@PV@MainInterface.png
 resource/global/YoStarJP/resource/template/MiniGame/RebuildingMandate/MiniGame@RM-1@BattleFailedClick.png
@@ -6693,6 +6697,8 @@ resource/global/YoStarKR/resource/template/MiniGame/OS/MiniGame@OS@ClickToContin
 resource/global/YoStarKR/resource/template/MiniGame/OS/MiniGame@OS@CollectAction.png
 resource/global/YoStarKR/resource/template/MiniGame/OS/MiniGame@OS@EndTurn.png
 resource/global/YoStarKR/resource/template/MiniGame/OS/MiniGame@OS@MoveAction.png
+resource/global/YoStarKR/resource/template/MiniGame/PF/MiniGame@PF@StartAction.png
+resource/global/YoStarKR/resource/template/MiniGame/PF/MiniGame@PF@StartCompetition.png
 resource/global/YoStarKR/resource/template/MiniGame/PV/MiniGame@PV@Confirm.png
 resource/global/YoStarKR/resource/template/MiniGame/PV/MiniGame@PV@MainInterface.png
 resource/global/YoStarKR/resource/template/MiniGame/RebuildingMandate/MiniGame@RM-1@BattleFailedClick.png
@@ -10164,6 +10170,13 @@ resource/template/StageNavigation/Resource/StagePR-C.png
 resource/template/StageNavigation/Resource/StagePR-D.png
 resource/template/StageNavigation/Resource/StageResource.png
 resource/template/StageNavigation/Resource/StageSK.png
+resource/template/StageNavigation/SideStory/CW/CW-S-1-A.png
+resource/template/StageNavigation/SideStory/CW/CW-S-1-B.png
+resource/template/StageNavigation/SideStory/CW/CW-S-2-A.png
+resource/template/StageNavigation/SideStory/CW/CW-S-2-B.png
+resource/template/StageNavigation/SideStory/CW/CW-S-3-A.png
+resource/template/StageNavigation/SideStory/CW/CW-S-3-B.png
+resource/template/StageNavigation/SideStory/CW/CW-S-4.png
 resource/template/StageNavigation/SideStory/FC/FC-Open.png
 resource/template/StageNavigation/SideStory/IC/IC-Open.png
 resource/template/StageNavigation/SideStory/IC/ICChapterToIC.png
@@ -10174,6 +10187,11 @@ resource/template/StageNavigation/SideStory/LE/LE-Open.png
 resource/template/StageNavigation/SideStory/NL/NL-Open.png
 resource/template/StageNavigation/SideStory/OF/OF-Chapter2.png
 resource/template/StageNavigation/SideStory/OF/StageOFNew.png
+resource/template/StageNavigation/SideStory/OS/OS-S-1.png
+resource/template/StageNavigation/SideStory/OS/OS-S-2.png
+resource/template/StageNavigation/SideStory/OS/OS-S-3.png
+resource/template/StageNavigation/SideStory/OS/OS-S-4.png
+resource/template/StageNavigation/SideStory/OS/OS-S-5.png
 resource/template/StageNavigation/SideStory/SN/SN-10.png
 resource/template/StageNavigation/SideStory/SN/SN-8.png
 resource/template/StageNavigation/SideStory/SN/SN-9.png
